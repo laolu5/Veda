@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Veda</title>
+		<link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/framework7-icons.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    
+        $("h1.down1").animate({bottom: '-150px' },2000).animate({left: '-1px'},2000).animate({bottom: '-250px'},2000).animate({left: '130px'},2000);
+        $("h1.down2").animate({bottom: '-150px' },2000).animate({left: '300px'},2000).animate({bottom: '-250px'},2000).animate({left: '165px'},2000);
+        $("h1.down3").animate({bottom: '-150px' },4000);
+        $("h1.down4").animate({bottom: '-150px' },4000).animate({left: '175px'},2000);
+        $("h1.add").hide().delay(4000).fadeIn(2000);
+        $("h1.equalsfive").hide().delay(5000).fadeIn(2000);
+        $("h1.fivedown").hide().delay(6000).fadeIn(2000).animate({bottom: '-250px' },2000);
+        $("#restart").click(function(){
+            location.reload();
+        });
+    //});
+});
+
+</script>
+        <style>
+            h3{
+                margin: 0px;
+                margin-top: 0px;
+                padding: 0px;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+            hr{
+                border: 1px solid #bbbbbb;
+                width: 90%;
+            }
+            .card{
+                box-shadow: 1px 1px 10px 0px black;
+            }
+            .party{
+                display: inline-table;
+                vertical-align: bottom;
+                background: linear-gradient(transparent 20%,#226699 100%)
+            }
+        </style>
+    </head>
+    <body style="padding: 0px; margin: 0px; height: 100%; width: 360px;">
+		<!--img src="img/Moody_Bridge-wallpaper-11185630.jpg" style="height: 300px; width: 100%;"/-->
+		<div class="header">
+			<div class="nav" style="background: white; border-bottom: 1px solid #aaaaaa;">
+				<a href="index.html" class="link icon-only open-panel" style="float: left;">
+					<i class="f7-icons" style="color: Black; font-size: 30px;">bars</i>
+				</a>
+                <h2 style="font-weight: 300; color: black;">Multiplication By 11</h2>
+			</div>
+		</div>
+		<div class="menu">
+			
+		</div>
+		
+        <br><br>
+		<div style="margin: 0px; padding: 0px; position: absolute; left: 0px; width 500px; height: 100%; overflow-x: hidden;">
+            
+                <div class="card" style="padding: 0px; margin-left: 0px; height: 630px; border-radius: 0px; width: 360px; background-color: white; overflow: hidden; box-shadow: none;">
+                    
+                    <img src="img/Abstract-34b47ac3-c576-3c7a-81a4-ea89a680c87a.jpg" style="width: 100%; height: 400px;">
+                    <div style="position: absolute; top: 170px; left: 0px; background: linear-gradient(transparent 1px,white 100%); height: 230px; width: 100%; padding-left: 0px;">
+                    </div>
+                     <div style="position: absolute; top: 40px; left: 0px; background: linear-gradient(transparent 1px,white 100%); height: 400px; width: 97%; padding-left: 10px;">
+                        <div class = "card" style = "position: absolute; top: 10px; padding: 10px ;  height: 150px ; width : 320px;">
+                            <h2>Introduction</h2>
+                            <h4>When multiplying a two digit number by 11, we can now use this super efficient method. The first and last number is the same and the middle number is the sum of the two digits.</h4>
+                        <h1 class="st" style="position: absolute; left: 130px;">23 X 11 </h1>
+                        <h1 class="down1" style="position: absolute; left: 130px;">2</h1>
+                        <h1 class="down2" style="position: absolute; left: 147px;">3</h1>
+                        <h1 class="down3" style="position: absolute; left: 130px;">2</h1>
+                        <h1 class="down4" style="position: absolute; left: 147px;">3</h1>
+                        <h1 class="add" style="position: absolute; left: 150px; bottom: -150px;">+</h1>
+                        <h1 class="equalsfive" style="position: absolute; left: 130px; bottom: -200px;">=5</h1>
+                        <h1 class="fivedown" style="position: absolute; left: 147px; bottom: -200px;">5</h1>
+                         <div style="position: absolute; left: 290px; bottom: -60px;"><button id = "restart" style="background-color: transparent; border: none;"><i class="f7-icons" style="color: #226699; font-size: 30px;">play_round</i></button></div>
+                    </div> 
+                     </div>
+                </div>
+            <button style="position: absolute; top: 80%;; left: 230px; font-size: 30px; border: 1px solid #225599; background-color: transparent; color: #226699; height: 50px; width: 100px;">Next</button>
+		</div>
+		
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
