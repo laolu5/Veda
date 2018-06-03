@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Veda</title>
+		<link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/framework7-icons.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    //$(window).load(function(){
+       // var AniInterval = setInterval(sidaAni,1000);
+        $("h1.down1").animate({bottom: '-150px' },2000);
+        $("h1.across1").hide().delay(2000).fadeIn().animate({left: '195px'},2000);
+        $("h1.multiply").hide().delay(4000).fadeIn(2000);
+        $("h1.equalstwentyfive").hide().delay(6000).fadeIn(2000);
+        $("h1.sevendown").hide().delay(7000).fadeIn(2000).animate({bottom: '-200px' },2000);
+        $("h1.multiply2").hide().delay(13000).fadeIn(2000);
+        $("h1.sevenacross").hide().delay(11000).fadeIn(1000).animate({left: '200px' },2000).fadeOut(1000);
+        $("h1.oneacross").hide().delay(11000).fadeIn(1000).animate({left: '200px' },2000).fadeOut(1000);
+        $("h1.eight").hide().delay(14000).fadeIn(1000);
+        $("h1.equalsfiftysix").hide().delay(15000).fadeIn(2000);
+        $("h1.fiftysix").hide().delay(17000).fadeIn(2000).animate({bottom: '-250px'},1000).animate({left: '118px'},1000);
+        $("h1.twentyfive").hide().delay(17000).fadeIn(2000).animate({bottom: '-250px'},1000).animate({left: '152px'},1000);
+        $("#restart").click(function(){
+            location.reload();
+        }); 
+    //}); 
+});
+</script>
+        <style>
+            h1{
+                margin: 0px;
+                margin-top: 0px;
+                padding: 0px;
+                font-family: sans-serif;
+                font-weight: 400;
+                color: #226699;
+            }
+            hr{
+                border: 1px solid #bbbbbb;
+                width: 90%;
+            }
+            .card{
+                box-shadow: 1px 1px 10px 0px black;
+            }
+            .party{
+                display: inline-table;
+                vertical-align: bottom;
+                background: linear-gradient(transparent 20%,#226699 100%)
+            }
+        </style>
+    </head>
+    <body style="padding: 0px; margin: 0px; height: 100%; width: 360px;" onload="customize()">
+		<!--img src="img/Moody_Bridge-wallpaper-11185630.jpg" style="height: 300px; width: 100%;"/-->
+		<div class="header">
+			<div class="nav" style="background: white; border-bottom: 1px solid #aaaaaa; color: #226699;">
+					<i class="f7-icons custom" style="font-size: 30px; color: #226699; float: left;" onclick="menu()">bars</i>
+                <h2 class="custom" style="font-weight: 300; color: #226699;">Squaring ending in 5</h2>
+			</div>
+		</div>
+		<div class="custom-background" id="menu" style="width: 0%;">
+            <div onclick="MenuClose()" style="position: absolute; left: 20px; top: 15px; font-size: 30px;">X</div>
+            <br>
+			<h2 style="font-size: 30px;">Véda</h2>
+            <br>
+            <center><div style="width: 120px; height: 120px; border-radius: 60px; background-color: black;"></div></center>
+            <br>
+            <center style="position: relative; left: 12%;">
+                            <div class="custom-border" style="center; font-size: 20px; height: 50px; width: 90px; border: 1px solid #226699; border-radius: 10px 0px 0px 10px; float: left;"><b>Rank</b><br>269</div> 
+                            <div class="custom-border" style="text-align: center; font-size: 20px; height: 50px; width: 90px; border: 1px solid #226699; float: left;"><b>Wins</b><br>93</div> 
+                            <div class="custom-border" style="text-align: center; font-size: 20px; height: 50px; width: 90px; border: 1px solid #226699; border-radius: 0px 10px 10px 0px; float: left;"><b>Games</b><br>102</div> 
+                            <br><br><br>
+                        </center>
+            <br><br>
+            <a href="index.html"><h2 style="color: white;">Home</h2></a>
+            <br><br>
+            <a href="lessons.html"><h2 style="color: white;">Lessons</h2></a>
+            <br><br>
+            <a href="GameHub.html"><h2 style="color: white;">Game Hub</h2></a>
+            <br><br>
+            <a href="Settings.html"><h2 style="color: white;">Settings</h2></a>
+		</div>
+		
+        <br><br>
+		<div style="margin: 0px; padding: 0px; position: absolute; left: 0px; width 500px; height: 100%; overflow-x: hidden;">
+            
+                <div class="card" style="padding: 0px; margin-left: 0px; height: 630px; border-radius: 0px; width: 360px; background-color: white; overflow: hidden; box-shadow: none;">
+                    
+                    <img src="img/Abstract-34b47ac3-c576-3c7a-81a4-ea89a680c87a.jpg" style="width: 100%; height: 400px;">
+                    <div style="position: absolute; top: 170px; left: 0px; background: linear-gradient(transparent 1px,white 100%); height: 230px; width: 100%; padding-left: 0px;">
+                    </div>
+                     <div style="position: absolute; top: 40px; left: 0px; background: linear-gradient(transparent 1px,white 100%); height: 400px; width: 97%; padding-left: 10px;">
+                        <div class = "card" style = "position: absolute; top: 10px; padding: 10px ;  height: 150px ; width : 320px;">
+                            <h2 class="custom">Introduction</h2>
+                            <h4>When squaring a number that ends in 5, the last part is always 25. The first part is the first digit multiplied by "one more".</h4>
+                            <br><br><br>
+                            <h1 class="custom st" style="position: absolute; left: 100px;">75 squared </h1>
+                            <h1 class="custom down1" style="position: absolute; left: 117px;">5</h1>
+                            <h1 class="custom across1" style="position: absolute; left: 117px;  bottom: -150px;">5</h1>
+                            <h1 class="custom multiply" style="position: absolute; left: 150px; bottom: -150px;">x</h1>
+                            <h1 class="custom equalstwentyfive" style="position: absolute; left: 230px; bottom: -150px;" >=25</h1>
+                            <h1 class="custom sevendown" style="position: absolute; left: 100px;">7</h1>
+                            <h1 class="custom sevenacross" style="position: absolute; left: 100px; bottom: -200px;">7</h1>
+                            <h1 class="custom oneacross" style="position: absolute; left: 230px; bottom: -200px;">1</h1>
+                            <h1 class="custom eight" style="position: absolute; left: 195px; bottom: -200px;">8</h1>
+                            <h1 class="custom multiply2" style="position: absolute; left: 130px; bottom: -200px;">x</h1>
+                            <h1 class="custom equalsfiftysix" style="position: absolute; left: 230px; bottom: -200px;" >=56</h1>
+                            <h1 class="custom fiftysix" style="position: absolute; left: 247px; bottom: -200px;" >56</h1>
+                            <h1 class="custom twentyfive" style="position: absolute; left: 247px; bottom: -150px;" >25</h1>
+                           
+                             <button id = "restart" style="background-color: transparent; border: none; position: absolute; top: 200px; left: 280px;"><i class="f7-icons custom" style="color: #226699; font-size: 30px;">play_round</i></button>
+                         </div>
+                     </div>
+                </div>
+            <button class="custom custom-border" style="position: absolute; top: 80%;; left: 230px; font-size: 30px; border: 1px solid #225599; background-color: transparent; color: #226699; height: 50px; width: 100px;" onclick="goTo('squares-2.html')">Next</button>
+		</div>
+		<script type="text/javascript" src="js/my-app.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
